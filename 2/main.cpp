@@ -5,6 +5,7 @@ int main()
 {
     double num1, num2;  // 使用 double 以支持小数运算
     char op;
+    int a;
     
     cout << "********** 简易计算器 **********" << endl;
     cout << "请输入第一个数字：";
@@ -51,5 +52,7 @@ int main()
     }
     
     cout << "*******************************" << endl;
+    cout << "请按任意键结束...";
+    cin >> a;  // 等待用户输入以结束程序
     return 0;
 }
