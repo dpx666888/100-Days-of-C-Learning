@@ -31,4 +31,4 @@ int main() {
     cout << "按任意键继续...";
     cin.get();
     return 0;               
-}
+}                                
