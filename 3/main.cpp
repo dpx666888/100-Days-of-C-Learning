@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip>  // 用于格式化输出
+                    #include <iomanip>  // 用于格式化输出
 using namespace std;
 int main() {
     const double RATIO = 9.0 / 5.0;  // 定义常量：转换比率
